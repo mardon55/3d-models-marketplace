@@ -1,0 +1,848 @@
+[
+  {
+    "name": "AK-47 Kalashnikov (Interaktiv)",
+    "origMB": "15.46",
+    "newMB": "0.13",
+    "saved": "99.1"
+  },
+  {
+    "name": "Lyuks shahar SUV",
+    "origMB": "0.18",
+    "newMB": "0.04",
+    "saved": "75.5"
+  },
+  {
+    "name": "Politsiya patrul avtomobili",
+    "origMB": "0.20",
+    "newMB": "0.04",
+    "saved": "78.0"
+  },
+  {
+    "name": "Harbiy vertolyot AH-64",
+    "origMB": "3.75",
+    "newMB": "0.08",
+    "saved": "97.8"
+  },
+  {
+    "name": "O't o'chirish mashinasi",
+    "origMB": "0.23",
+    "newMB": "0.05",
+    "saved": "77.4"
+  },
+  {
+    "name": "Shahar taksi avtomobili",
+    "origMB": "0.18",
+    "newMB": "0.04",
+    "saved": "76.7"
+  },
+  {
+    "name": "Yetkazib berish furgoni",
+    "origMB": "0.18",
+    "newMB": "0.04",
+    "saved": "75.4"
+  },
+  {
+    "name": "Tez tibbiy yordam mashinasi",
+    "origMB": "0.23",
+    "newMB": "0.05",
+    "saved": "77.1"
+  },
+  {
+    "name": "BMW M8 Coupe (2020)",
+    "origMB": "15.35",
+    "newMB": "1.86",
+    "saved": "87.9"
+  },
+  {
+    "name": "BMW X6M Competition",
+    "origMB": "27.48",
+    "newMB": "0.76",
+    "saved": "97.2"
+  },
+  {
+    "name": "Bugatti Bolide (2024)",
+    "origMB": "14.80",
+    "newMB": "3.03",
+    "saved": "79.5"
+  },
+  {
+    "name": "Tesla Roadster (2020)",
+    "origMB": "25.49",
+    "newMB": "0.48",
+    "saved": "98.1"
+  },
+  {
+    "name": "Asosiy jangovar tank",
+    "origMB": "4.47",
+    "newMB": "0.34",
+    "saved": "92.3"
+  },
+  {
+    "name": "Gusenitsali piyoda jangovar mashinasi",
+    "origMB": "4.40",
+    "newMB": "0.34",
+    "saved": "92.4"
+  },
+  {
+    "name": "Zirhli harbiy 4x4",
+    "origMB": "3.84",
+    "newMB": "0.17",
+    "saved": "95.5"
+  },
+  {
+    "name": "Tirkama gaubitsa",
+    "origMB": "2.98",
+    "newMB": "0.12",
+    "saved": "96.1"
+  },
+  {
+    "name": "Delta qanotli qiruvchi",
+    "origMB": "3.12",
+    "newMB": "0.07",
+    "saved": "97.7"
+  },
+  {
+    "name": "Stealth qiruvchi",
+    "origMB": "2.68",
+    "newMB": "0.08",
+    "saved": "97.1"
+  },
+  {
+    "name": "Tarixiy propellerli qiruvchi",
+    "origMB": "2.71",
+    "newMB": "0.07",
+    "saved": "97.3"
+  },
+  {
+    "name": "Harbiy transport samolyoti",
+    "origMB": "3.71",
+    "newMB": "0.11",
+    "saved": "96.9"
+  },
+  {
+    "name": "Ikki rotorli ogir transport vertolyoti",
+    "origMB": "3.75",
+    "newMB": "0.08",
+    "saved": "97.8"
+  },
+  {
+    "name": "Qum rangli jangovar tank",
+    "origMB": "1.87",
+    "newMB": "0.15",
+    "saved": "92.1"
+  },
+  {
+    "name": "8x8 zirhli transportyor",
+    "origMB": "0.61",
+    "newMB": "0.09",
+    "saved": "85.6"
+  },
+  {
+    "name": "4x4 MRAP patrul mashinasi",
+    "origMB": "0.72",
+    "newMB": "0.09",
+    "saved": "87.4"
+  },
+  {
+    "name": "6x6 harbiy yuk mashinasi",
+    "origMB": "0.98",
+    "newMB": "0.10",
+    "saved": "89.8"
+  },
+  {
+    "name": "AK-47 (Stein Games)",
+    "origMB": "15.46",
+    "newMB": "0.13",
+    "saved": "99.1"
+  },
+  {
+    "name": "M1911 to‘pponchasi",
+    "origMB": "12.69",
+    "newMB": "0.10",
+    "saved": "99.2"
+  },
+  {
+    "name": "MP5 avtomati",
+    "origMB": "11.75",
+    "newMB": "0.11",
+    "saved": "99.0"
+  },
+  {
+    "name": "MAC-10",
+    "origMB": "13.76",
+    "newMB": "0.12",
+    "saved": "99.1"
+  },
+  {
+    "name": "M14 miltig‘i",
+    "origMB": "13.54",
+    "newMB": "0.13",
+    "saved": "99.0"
+  },
+  {
+    "name": "M700 snayper miltig‘i",
+    "origMB": "12.43",
+    "newMB": "0.10",
+    "saved": "99.2"
+  },
+  {
+    "name": "TEC-9 to‘pponchasi",
+    "origMB": "5.30",
+    "newMB": "0.07",
+    "saved": "98.8"
+  },
+  {
+    "name": "Lever-Action miltig‘i",
+    "origMB": "12.46",
+    "newMB": "0.10",
+    "saved": "99.2"
+  },
+  {
+    "name": "AK-47 (Yengil variant)",
+    "origMB": "7.19",
+    "newMB": "0.04",
+    "saved": "99.5"
+  },
+  {
+    "name": "M4A1 taktik karabini",
+    "origMB": "4.99",
+    "newMB": "0.05",
+    "saved": "99.1"
+  },
+  {
+    "name": "Makarov to‘pponchasi (PM)",
+    "origMB": "4.01",
+    "newMB": "0.04",
+    "saved": "99.0"
+  },
+  {
+    "name": "Luger P08 to‘pponchasi",
+    "origMB": "10.65",
+    "newMB": "0.03",
+    "saved": "99.7"
+  },
+  {
+    "name": "M3 Grease Gun",
+    "origMB": "9.99",
+    "newMB": "0.04",
+    "saved": "99.6"
+  },
+  {
+    "name": "Suomi KP-31",
+    "origMB": "10.60",
+    "newMB": "0.05",
+    "saved": "99.5"
+  },
+  {
+    "name": "Shotgun ov miltig‘i",
+    "origMB": "12.12",
+    "newMB": "0.02",
+    "saved": "99.8"
+  },
+  {
+    "name": "Harbiy snayper miltig‘i",
+    "origMB": "3.34",
+    "newMB": "0.02",
+    "saved": "99.3"
+  },
+  {
+    "name": "Signal to‘pponchasi (Flare gun)",
+    "origMB": "5.07",
+    "newMB": "0.02",
+    "saved": "99.6"
+  },
+  {
+    "name": "Flashbang granatasi",
+    "origMB": "8.48",
+    "newMB": "0.04",
+    "saved": "99.6"
+  },
+  {
+    "name": "Frag jangovar granatasi",
+    "origMB": "11.51",
+    "newMB": "0.03",
+    "saved": "99.8"
+  },
+  {
+    "name": "M24 dasta granatasi",
+    "origMB": "15.21",
+    "newMB": "0.02",
+    "saved": "99.9"
+  },
+  {
+    "name": "Bino — Building Type A",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.7"
+  },
+  {
+    "name": "Bino — Building Type B",
+    "origMB": "0.15",
+    "newMB": "0.01",
+    "saved": "94.4"
+  },
+  {
+    "name": "Bino — Building Type C",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.5"
+  },
+  {
+    "name": "Bino — Building Type D",
+    "origMB": "0.15",
+    "newMB": "0.01",
+    "saved": "94.5"
+  },
+  {
+    "name": "Bino — Building Type E",
+    "origMB": "0.15",
+    "newMB": "0.01",
+    "saved": "94.5"
+  },
+  {
+    "name": "Bino — Building Type F",
+    "origMB": "0.14",
+    "newMB": "0.01",
+    "saved": "94.0"
+  },
+  {
+    "name": "Bino — Building Type G",
+    "origMB": "0.10",
+    "newMB": "0.01",
+    "saved": "92.9"
+  },
+  {
+    "name": "Bino — Building Type H",
+    "origMB": "0.07",
+    "newMB": "0.01",
+    "saved": "92.5"
+  },
+  {
+    "name": "Bino — Building Type I",
+    "origMB": "0.08",
+    "newMB": "0.01",
+    "saved": "91.9"
+  },
+  {
+    "name": "Bino — Building Type J",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.5"
+  },
+  {
+    "name": "Bino — Building Type K",
+    "origMB": "0.10",
+    "newMB": "0.01",
+    "saved": "93.2"
+  },
+  {
+    "name": "Bino — Building Type L",
+    "origMB": "0.12",
+    "newMB": "0.01",
+    "saved": "93.2"
+  },
+  {
+    "name": "Bino — Building Type M",
+    "origMB": "0.10",
+    "newMB": "0.01",
+    "saved": "93.5"
+  },
+  {
+    "name": "Bino — Building Type N",
+    "origMB": "0.14",
+    "newMB": "0.01",
+    "saved": "94.4"
+  },
+  {
+    "name": "Bino — Building Type O",
+    "origMB": "0.12",
+    "newMB": "0.01",
+    "saved": "93.9"
+  },
+  {
+    "name": "Bino — Building Type P",
+    "origMB": "0.12",
+    "newMB": "0.01",
+    "saved": "94.0"
+  },
+  {
+    "name": "Bino — Building Type Q",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.9"
+  },
+  {
+    "name": "Bino — Building Type R",
+    "origMB": "0.10",
+    "newMB": "0.01",
+    "saved": "93.0"
+  },
+  {
+    "name": "Bino — Building Type S",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.6"
+  },
+  {
+    "name": "Bino — Building Type T",
+    "origMB": "0.17",
+    "newMB": "0.01",
+    "saved": "94.6"
+  },
+  {
+    "name": "Bino — Building Type U",
+    "origMB": "0.12",
+    "newMB": "0.01",
+    "saved": "93.7"
+  },
+  {
+    "name": "Bino — Building A",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "94.2"
+  },
+  {
+    "name": "Bino — Building B",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "94.1"
+  },
+  {
+    "name": "Bino — Building C",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "93.6"
+  },
+  {
+    "name": "Bino — Building D",
+    "origMB": "0.10",
+    "newMB": "0.01",
+    "saved": "93.6"
+  },
+  {
+    "name": "Bino — Building E",
+    "origMB": "0.13",
+    "newMB": "0.01",
+    "saved": "94.5"
+  },
+  {
+    "name": "Bino — Building F",
+    "origMB": "0.15",
+    "newMB": "0.01",
+    "saved": "94.8"
+  },
+  {
+    "name": "Bino — Building G",
+    "origMB": "0.17",
+    "newMB": "0.01",
+    "saved": "95.2"
+  },
+  {
+    "name": "Bino — Building H",
+    "origMB": "0.13",
+    "newMB": "0.01",
+    "saved": "94.6"
+  },
+  {
+    "name": "Bino — Building I",
+    "origMB": "0.21",
+    "newMB": "0.01",
+    "saved": "95.3"
+  },
+  {
+    "name": "Bino — Building J",
+    "origMB": "0.43",
+    "newMB": "0.02",
+    "saved": "96.3"
+  },
+  {
+    "name": "Bino — Building K",
+    "origMB": "0.25",
+    "newMB": "0.01",
+    "saved": "95.6"
+  },
+  {
+    "name": "Bino — Building L",
+    "origMB": "0.29",
+    "newMB": "0.01",
+    "saved": "95.9"
+  },
+  {
+    "name": "Bino — Building M",
+    "origMB": "0.30",
+    "newMB": "0.01",
+    "saved": "96.1"
+  },
+  {
+    "name": "Bino — Building N",
+    "origMB": "0.34",
+    "newMB": "0.01",
+    "saved": "96.1"
+  },
+  {
+    "name": "Bino — Building Skyscraper A",
+    "origMB": "0.12",
+    "newMB": "0.01",
+    "saved": "93.9"
+  },
+  {
+    "name": "Bino — Building Skyscraper B",
+    "origMB": "0.14",
+    "newMB": "0.01",
+    "saved": "95.1"
+  },
+  {
+    "name": "Bino — Building Skyscraper C",
+    "origMB": "0.15",
+    "newMB": "0.01",
+    "saved": "95.1"
+  },
+  {
+    "name": "Bino — Building Skyscraper D",
+    "origMB": "0.17",
+    "newMB": "0.01",
+    "saved": "95.5"
+  },
+  {
+    "name": "Bino — Building Skyscraper E",
+    "origMB": "0.11",
+    "newMB": "0.01",
+    "saved": "94.3"
+  },
+  {
+    "name": "Bino — GrandStand",
+    "origMB": "0.01",
+    "newMB": "0.00",
+    "saved": "69.0"
+  },
+  {
+    "name": "Bino — GrandStandCovered",
+    "origMB": "0.01",
+    "newMB": "0.00",
+    "saved": "67.7"
+  },
+  {
+    "name": "Bino — PitsGarage",
+    "origMB": "0.01",
+    "newMB": "0.01",
+    "saved": "57.6"
+  },
+  {
+    "name": "Bino — PitsGarageClosed",
+    "origMB": "0.02",
+    "newMB": "0.01",
+    "saved": "59.9"
+  },
+  {
+    "name": "Bino — PitsGarageCorner",
+    "origMB": "0.01",
+    "newMB": "0.00",
+    "saved": "55.2"
+  },
+  {
+    "name": "Bino — PitsOffice",
+    "origMB": "0.01",
+    "newMB": "0.00",
+    "saved": "57.5"
+  },
+  {
+    "name": "Bino — PitsOfficeCorner",
+    "origMB": "0.01",
+    "newMB": "0.00",
+    "saved": "69.3"
+  },
+  {
+    "name": "Jangovar asosiy tank (T-90)",
+    "origMB": "1.87",
+    "newMB": "0.15",
+    "saved": "92.1"
+  },
+  {
+    "name": "BTR-80 Zirhli transportyor (8x8)",
+    "origMB": "0.61",
+    "newMB": "0.09",
+    "saved": "85.6"
+  },
+  {
+    "name": "MRAP Taktik zirhli avtomobil (4x4)",
+    "origMB": "0.72",
+    "newMB": "0.09",
+    "saved": "87.4"
+  },
+  {
+    "name": "Harbiy og'ir yuk mashinasi (6x6)",
+    "origMB": "0.98",
+    "newMB": "0.10",
+    "saved": "89.8"
+  },
+  {
+    "name": "PrSM Ballistik Raketa Tizimi",
+    "origMB": "0.61",
+    "newMB": "0.63",
+    "saved": "-2.5"
+  },
+  {
+    "name": "Shenyang J-35 Stels Qiruvchi",
+    "origMB": "0.42",
+    "newMB": "0.04",
+    "saved": "89.6"
+  },
+  {
+    "name": "Shahed-136 Kamikadze Droni",
+    "origMB": "2.29",
+    "newMB": "0.05",
+    "saved": "97.7"
+  },
+  {
+    "name": "Bayraktar TB2 Zarbdor Droni",
+    "origMB": "2.20",
+    "newMB": "0.06",
+    "saved": "97.1"
+  },
+  {
+    "name": "F-35 Lightning II Qiruvchi",
+    "origMB": "0.48",
+    "newMB": "0.05",
+    "saved": "88.8"
+  },
+  {
+    "name": "Mazda RX-7",
+    "origMB": "14.56",
+    "newMB": "0.29",
+    "saved": "98.0"
+  },
+  {
+    "name": "Nissan Skyline R34 GT-R",
+    "origMB": "4.82",
+    "newMB": "0.13",
+    "saved": "97.3"
+  },
+  {
+    "name": "Lamborghini Huracan GT3 - Squadra Corse SDC",
+    "origMB": "9.70",
+    "newMB": "0.22",
+    "saved": "97.7"
+  },
+  {
+    "name": "Lamborghini Terzo Millennio Wind tunnel",
+    "origMB": "11.18",
+    "newMB": "0.41",
+    "saved": "96.3"
+  },
+  {
+    "name": "F1 2021 McLaren MCL35M",
+    "origMB": "7.11",
+    "newMB": "0.15",
+    "saved": "98.0"
+  },
+  {
+    "name": "Tesla 2018 Model 3",
+    "origMB": "21.62",
+    "newMB": "0.56",
+    "saved": "97.4"
+  },
+  {
+    "name": "2020 Lamborghini Sian FKP37",
+    "origMB": "19.40",
+    "newMB": "1.25",
+    "saved": "93.5"
+  },
+  {
+    "name": "2019 Chevrolet Corvette C8 Stingray",
+    "origMB": "12.80",
+    "newMB": "0.97",
+    "saved": "92.4"
+  },
+  {
+    "name": "Ford Mustang ROUSH 2019 - Stage 3",
+    "origMB": "8.44",
+    "newMB": "0.17",
+    "saved": "98.0"
+  },
+  {
+    "name": "2017 Aston Martin DB11",
+    "origMB": "13.76",
+    "newMB": "0.60",
+    "saved": "95.7"
+  },
+  {
+    "name": "Lamborghini Aventador LP750-4 SV",
+    "origMB": "11.04",
+    "newMB": "0.63",
+    "saved": "94.3"
+  },
+  {
+    "name": "Tuning Nissan GT-R SDC",
+    "origMB": "19.13",
+    "newMB": "0.77",
+    "saved": "96.0"
+  },
+  {
+    "name": "Mercedes Benz SL65 Amg",
+    "origMB": "8.55",
+    "newMB": "1.00",
+    "saved": "88.3"
+  },
+  {
+    "name": "Chevrolet S10",
+    "origMB": "20.12",
+    "newMB": "0.43",
+    "saved": "97.9"
+  },
+  {
+    "name": "Free Koenigsegg Gemera",
+    "origMB": "6.75",
+    "newMB": "0.19",
+    "saved": "97.2"
+  },
+  {
+    "name": "Dodge Challenger Demon 2018",
+    "origMB": "21.10",
+    "newMB": "0.38",
+    "saved": "98.2"
+  },
+  {
+    "name": "2020 Chevy Corvette C8",
+    "origMB": "22.74",
+    "newMB": "4.79",
+    "saved": "78.9"
+  },
+  {
+    "name": "Chevrolet Aveo Sonic 2012",
+    "origMB": "19.78",
+    "newMB": "0.31",
+    "saved": "98.4"
+  },
+  {
+    "name": "2021 Land Rover Defender 110",
+    "origMB": "21.53",
+    "newMB": "4.11",
+    "saved": "80.9"
+  },
+  {
+    "name": "Chevrolet Corvette",
+    "origMB": "22.41",
+    "newMB": "0.55",
+    "saved": "97.6"
+  },
+  {
+    "name": "Honda civic",
+    "origMB": "17.62",
+    "newMB": "3.21",
+    "saved": "81.8"
+  },
+  {
+    "name": "Ferrari Mission Winnow 2022 F1",
+    "origMB": "6.66",
+    "newMB": "0.55",
+    "saved": "91.8"
+  },
+  {
+    "name": "Dodge Challenger Demon 2019",
+    "origMB": "21.10",
+    "newMB": "0.37",
+    "saved": "98.2"
+  },
+  {
+    "name": "2020 BMW X5 M Competition",
+    "origMB": "18.13",
+    "newMB": "3.89",
+    "saved": "78.6"
+  },
+  {
+    "name": "Dodge Challenger Widebody",
+    "origMB": "21.10",
+    "newMB": "0.37",
+    "saved": "98.2"
+  },
+  {
+    "name": "Free Lamborghini Gallardo Tokyo Drift",
+    "origMB": "8.55",
+    "newMB": "0.31",
+    "saved": "96.4"
+  },
+  {
+    "name": "Chevrolet Impala Highway Patrol",
+    "origMB": "10.18",
+    "newMB": "0.48",
+    "saved": "95.3"
+  },
+  {
+    "name": "2015 Ford F150 King Ranch Edition",
+    "origMB": "17.95",
+    "newMB": "6.89",
+    "saved": "61.6"
+  },
+  {
+    "name": "2015 BMW M4",
+    "origMB": "8.89",
+    "newMB": "2.26",
+    "saved": "74.6"
+  },
+  {
+    "name": "BMW M3",
+    "origMB": "20.15",
+    "newMB": "0.37",
+    "saved": "98.2"
+  },
+  {
+    "name": "Mercedes Benz AMG GT",
+    "origMB": "16.92",
+    "newMB": "0.41",
+    "saved": "97.6"
+  },
+  {
+    "name": "Bugatti Chiron",
+    "origMB": "5.82",
+    "newMB": "0.15",
+    "saved": "97.4"
+  },
+  {
+    "name": "2020 Toyota Fortuner Legender",
+    "origMB": "13.73",
+    "newMB": "2.82",
+    "saved": "79.4"
+  },
+  {
+    "name": "Ford Mustang Shelby 2012",
+    "origMB": "8.51",
+    "newMB": "0.29",
+    "saved": "96.6"
+  },
+  {
+    "name": "Toyota land Cruiser 6x6",
+    "origMB": "13.31",
+    "newMB": "0.54",
+    "saved": "95.9"
+  },
+  {
+    "name": "Mitsubishi lancer evolution X time attack car",
+    "origMB": "17.51",
+    "newMB": "0.40",
+    "saved": "97.7"
+  },
+  {
+    "name": "2020 Lamborghini Sian",
+    "origMB": "18.35",
+    "newMB": "1.24",
+    "saved": "93.2"
+  },
+  {
+    "name": "Bugatti - La Voiture Noire",
+    "origMB": "9.25",
+    "newMB": "0.34",
+    "saved": "96.3"
+  },
+  {
+    "name": "2020 Ford Expedition",
+    "origMB": "18.52",
+    "newMB": "3.63",
+    "saved": "80.4"
+  },
+  {
+    "name": "Toyota Land Cruiser J200 2017",
+    "origMB": "14.04",
+    "newMB": "3.54",
+    "saved": "74.8"
+  }
+]

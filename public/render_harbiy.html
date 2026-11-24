@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Render Harbiy 3D Previews</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <style>
+    body { background: #0b0620; color: white; font-family: sans-serif; padding: 20px; }
+    canvas { border: 1px solid #7c3aed; margin: 10px; background: transparent; }
+    #log { font-family: monospace; white-space: pre-wrap; font-size: 13px; color: #c084fc; }
+  </style>
+</head>
+<body>
+  <h2>Haqiqiy Rangli 3D Renderlarni Tayyorlash...</h2>
+  <div id="status">Boshlanmoqda...</div>
+  <canvas id="c" width="800" height="600" style="display:none;"></canvas>
+  <div id="log"></div>
+
+  <script>
+    const items = [
+      { file: '/models/harbiy/main-battle-tank.glb', out: '01.png' },
+      { file: '/models/harbiy/tracked-infantry-fighting-vehicle.glb', out: '02.png' },
+      { file: '/models/harbiy/military-utility-vehicle.glb', out: '03.png' },
+      { file: '/models/harbiy/towed-howitzer.glb', out: '04.png' },
+      { file: '/models/harbiy/delta-fighter.glb', out: '05.png' },
+      { file: '/models/harbiy/stealth-fighter.glb', out: '06.png' },
+      { file: '/models/harbiy/vintage-prop-fighter.glb', out: '07.png' },
+      { file: '/models/harbiy/military-transport.glb', out: '08.png' },
+      { file: '/models/harbiy/tandem-rotor-helicopter.glb', out: '09.png' },
+      { file: '/models/harbiy/battle-tank.glb', out: '10.png' },
+      { file: '/models/harbiy/apc-8x8.glb', out: '11.png' },
+      { file: '/models/harbiy/mrap-4x4.glb', out: '12.png' },
+      { file: '/models/harbiy/cargo-truck-6x6.glb', out: '13.png' },
+      { file: '/models/harbiy/battle-tank.glb', out: 'battle-tank.webp' },
+      { file: '/models/harbiy/apc-8x8.glb', out: 'apc-8x8.webp' },
+      { file: '/models/harbiy/mrap-4x4.glb', out: 'mrap-4x4.webp' },
+      { file: '/models/harbiy/cargo-truck-6x6.glb', out: 'cargo-truck-6x6.webp' }
+    ];
+
+    const canvas = document.getElementById('c');
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true });
+    renderer.setSize(800, 600);
+    renderer.setPixelRatio(1);
+    renderer.outputEncoding = THREE.sRGBEncoding;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.2;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(40, 800 / 600, 0.1, 100);
+
+    const ambientLight = new THREE.AmbientLight(0xffffff, 1.2);
+    scene.add(ambientLight);
+
+    const keyLight = new THREE.DirectionalLight(0xfff5ea, 2.0);
+    keyLight.position.set(5, 8, 5);
+    scene.add(keyLight);
+
+    const fillLight = new THREE.DirectionalLight(0xb0d0ff, 1.2);
+    fillLight.position.set(-5, 4, -3);
+    scene.add(fillLight);
+
+    const rimLight = new THREE.DirectionalLight(0xd9b3ff, 1.4);
+    rimLight.position.set(0, -4, -4);
+    scene.add(rimLight);
+
+    const loader = new THREE.GLTFLoader();
+    const statusDiv = document.getElementById('status');
+    const logDiv = document.getElementById('log');
+
+    function log(msg) {
+      logDiv.textContent += msg + '\n';
+      statusDiv.textContent = msg;
+    }
+
+    async function renderAndSave(item) {
+      return new Promise((resolve, reject) => {
+        log('Yuklanmoqda: ' + item.file);
+        loader.load(
+          item.file,
+          async (gltf) => {
+            const root = gltf.scene;
+            const wrapper = new THREE.Group();
+            wrapper.add(root);
+
+            const box = new THREE.Box3().setFromObject(root);
+            const size = box.getSize(new THREE.Vector3());
+            const center = box.getCenter(new THREE.Vector3());
+            root.position.set(-center.x, -center.y, -center.z);
+
+            const maxDim = Math.max(size.x, size.y, size.z);
+            const scale = 2.4 / (maxDim || 1);
+            wrapper.scale.setScalar(scale);
+
+            // Angle matching the standard 3D viewer
+            camera.position.set(2.4, 1.4, 2.8);
+            camera.lookAt(0, 0, 0);
+
+            scene.add(wrapper);
+            renderer.render(scene, camera);
+
+            const dataUrl = canvas.toDataURL(item.out.endsWith('.webp') ? 'image/webp' : 'image/png');
+
+            scene.remove(wrapper);
+
+            try {
+              const res = await fetch('/api/save-preview', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: item.out, base64: dataUrl })
+              });
+              if (res.ok) {
+                log('Saqlandi: ' + item.out + ' (' + Math.round(dataUrl.length / 1024) + ' KB)');
+                resolve();
+              } else {
+                reject(new Error('Server error ' + res.status));
+              }
+            } catch (e) {
+              reject(e);
+            }
+          },
+          undefined,
+          (err) => {
+            log('Xatolik: ' + item.file + ' ' + (err.message || err));
+            resolve(); // continue next
+          }
+        );
+      });
+    }
+
+    async function runAll() {
+      for (let i = 0; i < items.length; i++) {
+        await renderAndSave(items[i]);
+        await new Promise(r => setTimeout(r, 100));
+      }
+      log('ALL DONE GENERATING TEXTURED PREVIEWS');
+    }
+
+    runAll();
+  </script>
+</body>
+</html>

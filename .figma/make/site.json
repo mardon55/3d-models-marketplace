@@ -1,0 +1,10 @@
+{
+  "description": "Browse and purchase downloadable GLB 3D models for games, animation, and creative projects, with a convenient cart and Telegram profile.",
+  "robots": {
+    "index": true
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

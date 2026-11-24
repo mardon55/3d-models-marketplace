@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "2020_bmw_m8",
+    "name": "2020 bmw m8",
+    "file": "Modellar/2020_bmw_m8.glb",
+    "source": "https://raw.githubusercontent.com/Vivekkk-1/3D-Models/main/Cars/2020_bmw_m8.glb",
+    "asset": {
+      "extras": {
+        "author": "Outlaw Games™ (https://sketchfab.com/WarEntertainment)",
+        "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+        "source": "https://sketchfab.com/3d-models/2020-bmw-m8-coupe-f69bc7c528804552b2ff032d7c1e9fb4",
+        "title": "2020 BMW M8 Coupe"
+      },
+      "generator": "Sketchfab-16.59.0",
+      "version": "2.0"
+    },
+    "id": 1,
+    "bytes": 16100820,
+    "sha256": "45b07634f696b1307e0e1320ee668011c9a135a7dcd0683ab2779d4561ded2da",
+    "triangles": 225932,
+    "mesh_objects": 920,
+    "images": 29,
+    "preview": "Rasmlar/01.png"
+  },
+  {
+    "slug": "bmw_x6m",
+    "name": "bmw x6m",
+    "file": "Modellar/bmw_x6m.glb",
+    "source": "https://raw.githubusercontent.com/Vivekkk-1/3D-Models/main/Cars/bmw_x6m.glb",
+    "asset": {
+      "extras": {
+        "author": "vecarz (https://sketchfab.com/heynic)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/bmw-x6m-competition-assetto-wwwvecarzcom-3979a908081948e0971f5a5380b60a0f",
+        "title": "BMW X6M Competition Assetto | www.vecarz.com"
+      },
+      "generator": "Sketchfab-16.64.0",
+      "version": "2.0"
+    },
+    "id": 2,
+    "bytes": 28815792,
+    "sha256": "4f7917e89c73ab7898fdb962b2fd63e22c098b4fad071c5d5a9ea4e1d259e186",
+    "triangles": 542369,
+    "mesh_objects": 48,
+    "images": 11,
+    "preview": "Rasmlar/02.png"
+  },
+  {
+    "slug": "bugatti_bolide_2024",
+    "name": "bugatti bolide 2024",
+    "file": "Modellar/bugatti_bolide_2024.glb",
+    "source": "https://raw.githubusercontent.com/Vivekkk-1/3D-Models/main/Cars/bugatti_bolide_2024.glb",
+    "asset": {
+      "extras": {
+        "author": "vecarz (https://sketchfab.com/heynic)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/bugatti-bolide-2024-wwwvecarzcom-8a0b3352bacd494d82927aad5ddd05b6",
+        "title": "Bugatti Bolide 2024 | www.vecarz.com"
+      },
+      "generator": "Sketchfab-16.64.0",
+      "version": "2.0"
+    },
+    "id": 3,
+    "bytes": 15514560,
+    "sha256": "bb2be35a65328ad7bd8ae6d457b59399790c12cc81be0ea7a6a789a37e4c308d",
+    "triangles": 279755,
+    "mesh_objects": 19,
+    "images": 14,
+    "preview": "Rasmlar/03.png"
+  },
+  {
+    "slug": "tesla_roadster_2020",
+    "name": "tesla roadster 2020",
+    "file": "Modellar/tesla_roadster_2020.glb",
+    "source": "https://raw.githubusercontent.com/Vivekkk-1/3D-Models/main/Cars/tesla_roadster_2020.glb",
+    "asset": {
+      "extras": {
+        "author": "vecarz (https://sketchfab.com/heynic)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/tesla-roadster-2020-wwwvecarzcom-fac3d813620f4c4a95da1933c2592069",
+        "title": "Tesla Roadster 2020 | www.vecarz.com"
+      },
+      "generator": "Sketchfab-16.62.0",
+      "version": "2.0"
+    },
+    "id": 4,
+    "bytes": 26726868,
+    "sha256": "c88eb12fee9f12c932611af5abcabe53f2b5c8b32b6da8b3fc507169e641a836",
+    "triangles": 608850,
+    "mesh_objects": 105,
+    "images": 8,
+    "preview": "Rasmlar/04.png"
+  }
+]
